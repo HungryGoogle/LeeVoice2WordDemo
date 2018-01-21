@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="deepin.com.leevoice2worddemo.MainActivity">
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/id_word_2_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文字转语音"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/id_voice_2_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="语音转文字"/>
+</LinearLayout>
